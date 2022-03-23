@@ -3,3 +3,14 @@
     box-sizing: border-box;
 }
 
+.main__fotoPerfil{
+
+}
+
+.main__img_fotoPerfil{
+    max-width: 40vw;
+    max-height: 50vw;
+    border: 4 solid;
+    border-radius: 20;
+
+}
