@@ -12,57 +12,64 @@
 </head>
 <body>
     <header class="header_container">
-        <nav>
+        <nav class="header__nav">
             <div class="header__title">
                 <h1>Webdeveloper</h1>
                 <h4>estebanvasquex</h4>
+            
             </div>
-            <img src="../src/img/menu.svg" alt="">
 
             <div>
-
+                <img src="../src/img/menu.svg" alt="">
             </div>
         </nav>
 
-    </figure class="header__figure">
-    <img src="../src/img/imgheader.svg" alt="">
-    <figure class="header__figure">
-    <div>
-        <h2>Hola! 
-            Soy Esteban Vásquez</h2>
-        <p>soy desarrollador de aplicacones web y apasionado por la tecnología</p>
+    <div class="header__sectioninicial">
+        <div>
+            <img class="header__section_img" src="../src/img/imgheader.svg" alt="">
+        </div>
+        
+        <div class="header__sectioninicial_texto">
+            <h2>Hola! Soy Esteban Vásquez</h2>
+            <p>soy desarrollador de aplicacones web y apasionado por la tecnología</p>
+
+        </div>
 
     </div>
+
+     
+
+   
 
     </header>
 
     <main>
         <section class="main_sobremi">
             <div class="main__container_sobremi">
-                <h2>Sobre mi</h2>
-                <figure class="main__fotoPerfil">
-                <img class="main__img_fotoPerfil" src="../src/img/fotoPerfil.jpg" alt="">
-                </figure>
+                <h2 class="main__tituloSobremi">Sobre mi</h2>
+                
+                <img class="main__img_fotoPerfil" src="../src/img/Perfil.png" alt="">
+                
                 <p class="main__texto_sobremi">
                     Mi nombre Es Esteban Vásquez y soy web developer apasionado por la tecnología, llevo mas de 15 años dedicado al áreea de TI donde he estado en varios campos, me gusta estar en constante aprendizaje, lo que más me apasiona con el desarrollo web es crear aplicaciones que ayuden a agilizar procesos y puedan ser acesibles desde cualquier lugar del mundo
                 </p>
                 <div class="main__datos_personal">
-                    <div class="datospersonal__item">
+                    <div class="datospersonal__item1 items">
                       <img src="../src/img/icon_birthday.svg" class="hero__icon" alt="">
                       <h3 class="hero__number">Octubre 12, 1984</h3>
                     </div>
                     
-                    <div class="datospersonal__item">
+                    <div class="datospersonal__item2 items">
                       <img src="../src/img/icon_location.svg" class="hero__icon" alt="">
                       <h3 class="hero__number">Medellín</h3>
                     </div>
                     
-                    <div class="datospersonal__item">
+                    <div class="datospersonal__item3 items">
                         <img src="../src/img/icon_ graduation.svg" class="hero__icon" alt="">
                         <h3 class="hero__number">Sistemas de información</h3>
                       </div>
                     
-                      <div class="datospersonal__item">
+                      <div class="datospersonal__item4 items">
                         <img src="../src/img/icon_phone.svg" class="hero__icon" alt="">
                         <h3 class="hero__number">31459264**</h3>
                       </div>
@@ -75,48 +82,47 @@
             <h2 class="main__skillset_titulo">SKILLSET</h2>
 
             <div class="section__skillset_container">
+
+                <div class="main__skillset_img items">
+                    <img src="../src/img/imgHtml.svg" alt="">                   
+                </div>
                 
-                <div class="main__skillset_img">
+                <div class="main__skillset_img items">
                     <img src="../src/img/imgCss.svg" alt="logo Css">
                 </div>
-
-                <div class="main__skillset_img">
-                    <img src="../src/img/imgHtml.svg" alt="logo Html" 
-                </div>
-
-                <div class="main__skillset_img">
+                <div class="main__skillset_img items">
                     <img src="../src/img/imgJs.svg" alt="logo ">
                 </div>
                 
-                <div class="main__skillset_img">
+                <div class="main__skillset_img items">
                     <img src="../src/img/imgConsola.svg" alt="Imagen consola">
                 </div>
 
-                <div class="main__skillset_img">
+                <div class="main__skillset_img items">
                     <img src="../src/img/imgVue.svg" alt="Imagen framework">
                 </div>
 
-                <div class="main__skillset_img">
+                <div class="main__skillset_img items">
                     <img src="../src/img/imgGit.svg" alt="Imagen Git">
                 </div>
 
-                <div class="main__skillset_img">
+                <div class="main__skillset_img items">
                     <img src="../src/img/imgFigma.svg" alt="Imagen figma">
                 </div>
 
-                <div class="main__skillset_img">
+                <div class="main__skillset_img items">
                     <img src="../src/img/imgScrum.svg" alt="Imagen Scrum">
                 </div>
 
-                <div class="main__skillset_img">
+                <div class="main__skillset_img items">
                     <img src="../src/img/imgMySql.svg" alt="Imagen Mysql">
                 </div>
 
-                <div class="main__skillset_img">
+                <div class="main__skillset_img items">
                     <img src="../src/img/imgFirebase.svg" alt="Imagen firebase">
                 </div>
 
-                <div class="main__skillset_img">
+                <div class="main__skillset_img items">
                     <img src="../src/img/imgNpm.svg" alt="Imagen npm">
 
 
@@ -130,14 +136,14 @@
         <section class="main__misProyectos">
             <div class="main__misproyectos_container">
                 
-                <h2 class="main_misproyectos_titulo"></h2>
+                <h2 class="main_misproyectos_titulo">Mis proyectos</h2>
                 
                 <div class="main__container_acortadorLink">
                     <h3>Acortador de Link</h3>
-                    <form action="">
+                    
                         <input class="main__input_acortador" type="text" placeholder="Ingresa link">
                         <button class="main__button_acortador" name="Transformar">Transformar</button>
-                    </form>
+                
                 </div>
 
                 <div class="main__container_laverdad">
@@ -148,12 +154,14 @@
         </section>
 
         <section class="main__contactame">
-            <h2 class="main__titulo_cotactame"></h2>
-            <form action="">
-                <input class="main__contactame_correo" type="text" placeholder="correo">
-                <textarea class="main__contactame_comentario" name="" id="" cols="30" rows="10" placeholder="Ingresa comentario"></textarea>
+                
+                <h2 class="main__titulo_cotactame">Contactame</h2>
+                
+                <input class="main__contactame_correo inputitem" type="text" placeholder="correo">
+                
+                <textarea class="main__contactame_comentario inputitem" name="" id="" cols="30" rows="10" placeholder="Ingresa comentario"></textarea>
+
                 <button class="main__contactame_enviar" name="contacto">Enviar</button>
-            </form>
         </section>
 
     </main>
@@ -164,7 +172,7 @@
             <p class="footer__parrafo">Es mejor vencerse a uno mismo que conquistar ciudades.</p>
             <div class="footer__nav">
                 <nav>
-                    <ul>
+                    <ul class="footer__nava_li">
                         <li>Inicio</li>
                         <li>Sobre mi</li>
                         <li>Skillset</li>
@@ -172,10 +180,11 @@
                         <li>Contacto</li>
                     </ul>                    
                 </nav>
-                <div class="footer__iconRedes">
-                    <img src="../src/img/iconLinkedin.svg" alt="">
-                    <img src="../src/img/iconGithub.svg" alt="">
-                </div>
+                
+            </div>
+            <div class="footer__iconRedes">
+                <img src="../src/img/iconLinkedin.svg" alt="">
+                <img src="../src/img/iconGithub.svg" alt="">
             </div>
 
         </div>
